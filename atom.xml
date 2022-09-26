@@ -6,7 +6,7 @@
   <link href="https://shane0702.github.io/atom.xml" rel="self"/>
   
   <link href="https://shane0702.github.io/"/>
-  <updated>2022-09-13T15:33:26.938Z</updated>
+  <updated>2022-09-26T11:23:13.127Z</updated>
   <id>https://shane0702.github.io/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>造站更新001</title>
+    <link href="https://shane0702.github.io/2022/09/26/%E9%80%A0%E7%AB%99%E6%9B%B4%E6%96%B0001/"/>
+    <id>https://shane0702.github.io/2022/09/26/%E9%80%A0%E7%AB%99%E6%9B%B4%E6%96%B0001/</id>
+    <published>2022-09-26T08:08:44.000Z</published>
+    <updated>2022-09-26T11:23:13.127Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="事前準備"><a href="#事前準備" class="headerlink" title="事前準備"></a><strong>事前準備</strong></h2><p>！<a href="https://firebasestorage.googleapis.com/v0/b/projecttaste-aafbc.appspot.com/o/ProjectTaste.pdf?alt=media&token=b84199c4-e602-42a1-a934-21c1f9306d3a">projectTaste初版首頁</a></p><p>首先選擇實踐的是 <strong>購物車</strong>：</p><p>需要的功能<br>1.購物車的資料庫<br>2.購物車的增刪改查<br>3.價格自動加總<br>4.購買</p><p>-執行增刪改查以前都要確認用戶有沒有登錄？執行以下：登錄</p><p>  add <em>增加商品</em> :</p><table><thead><tr><th align="center">情況一</th><th align="center">第一次加入購物車，創建購物車並且添加</th></tr></thead><tbody><tr><td align="center">情況二</td><td align="center">購物車內有該商品，則添加該數量</td></tr><tr><td align="center">情況三</td><td align="center">購物車存在，但沒有該商品，添加該商品</td></tr></tbody></table><p>  check <em>查看商品</em> :</p><table><thead><tr><th align="center">情況一</th><th align="center">沒登入但可以查看自己保存的商品(Cookie)</th></tr></thead><tbody><tr><td align="center">情況二</td><td align="center">有登入，並且可以在不同設備上切換查看</td></tr></tbody></table><p>  Update&amp;Delete <em>更改以及刪除</em> :</p><table><thead><tr><th align="center">情況一</th><th align="center">沒購物車 不執行動作</th></tr></thead><tbody><tr><td align="center">情況二</td><td align="center">有購物車， 商品數&gt;刪除數，刪除該數</td></tr><tr><td align="center">情況三</td><td align="center">有購物車， 商品數＝刪除數，刪除商品</td></tr><tr><td align="center">情況四</td><td align="center">有購物車， 商品數&lt;刪除數，刪除購物車</td></tr></tbody></table><p>  buy <em>購買</em> :</p><table><thead><tr><th align="center">情況一</th><th align="center">沒購物車 不執行動作</th></tr></thead><tbody><tr><td align="center">情況二</td><td align="center">有購物車， 全部購買</td></tr><tr><td align="center">情況三</td><td align="center">有購物車， 買指定的</td></tr></tbody></table>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;事前準備&quot;&gt;&lt;a href=&quot;#事前準備&quot; class=&quot;headerlink&quot; title=&quot;事前準備&quot;&gt;&lt;/a&gt;&lt;strong&gt;事前準備&lt;/strong&gt;&lt;/h2&gt;&lt;p&gt;！&lt;a href=&quot;https://firebasestorage.googleapis.</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>“我的第一篇部落格文章”</title>
